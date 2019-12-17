@@ -10,7 +10,7 @@ void setup() {
 void loop() {
     
     val = Serial.read();//读取指令并赋给val
-    if(val=='h')
+    if(val="hello world")
     {
         //h
         for(int i=0;i<4;i++)
